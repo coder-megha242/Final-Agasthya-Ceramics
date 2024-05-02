@@ -956,7 +956,6 @@ footer {
             width: 38vw;
             margin-top: 43vw;
         }
-        
         .About-left .img2 {
             height: 55vh;
             width: 42vw;
@@ -1033,6 +1032,110 @@ footer {
             height: 10vh;
             width: 15vw;
         }
+    }
+    @media screen and (max-width:370px){
+        body{
+            background-image: url('./Images/Swap\ Hero\ Image.png');
+            background-position: 5vh 56vw;
+        }
+        .left h1{
+            margin-right: 6vh;
+            font-size: 5.2vw;
+            line-height: 5.5vw;
+
+        }
+        .left span{
+            font-size: 4.6vw;
+            line-height: 1vw;
+        }
+        .left p{
+            font-size: 3.3vw;
+        }
+        .Hero-Button {
+            margin-top: 34vh;
+            padding: 2.5vw 3.5vw;
+            margin-left: -0.1vh;
+        }
+        .About-right p {
+            font-size: 3.3vw;
+        }
+        #Products{
+            margin-top: 72vh;
+        }
+        .Product-left {
+            margin-left: 10vh;
+            margin-top: -2vw;
+        }
+        .Product-right {
+            margin-left: 5vh;
+        }
+        .Product-Content-2{
+            margin-top: -3vw;
+        }
+        .Product-left-2{
+            margin-left: 4.5vh;
+            margin-top: -4vw;
+        }
+        .Product-right-2{
+            /* margin-right: vw; */
+        }
+        .Product-Content-3{
+            margin-top: 12vw;
+        }
+        .heading1{
+            margin-left: -8vw;
+        }
+        .heading3{
+            margin-left: -8vw;
+        }
+        #Contact{
+            margin-top: 185vh;
+        }
+        .ContactInfoHeading {
+            font-size: 4.9vw;
+        }
+        .contact-info a {
+            font-size: 3.5vw;
+        }
+        .Social-logo img{
+            height: 12vh;
+            width: 15%;
+            margin-left: 15vw;
+            margin-top: 3vh;
+        }
+        .Contact-Button{
+            font-size: 3.8vw;
+            width: 25vw;
+            height: 5.5vh;
+            margin-bottom: 3vh;
+        }
+        .ContactFormHeading {
+            font-size: 4.9vw;
+        }
+        label{
+            font-size: 3.3vw;
+        }
+        .input-box input{
+            font-size: 3.3vw;
+            margin-top: 2.4vw;
+        }
+        footer{
+            margin-top: 65vh;
+        }
+        .Logo-Text{
+            font-size: 4.8vw;
+        }
+        .FooterLogo{
+            height: 12vh;
+            width: 18vw;
+        }
+        .Footerlinks li a {
+            font-size: 3.5vw;
+        }
+        .Copyright{
+            font-size: 2.4vw;
+        }
+
     }
 
 }
