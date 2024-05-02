@@ -925,8 +925,8 @@ footer {
     @media screen and (max-width:430px){
        body{
            background-image: url('./Images/Swap\ Hero\ Image.png');
-           background-position: 5vh 45vw;
-           background-size: 100vw 30vh;
+           background-position: 6vh 46vw;
+           background-size: 100vw 38vh;
        }
        .Logo {
             height: 8vh;
@@ -935,44 +935,59 @@ footer {
        .nav-part1 h2{
             font-size: 4.5vw;
         }
+        .left h1{
+            margin-right: 10vh;
+            font-size: 4.9vw;
+        }
+        .left span{
+            font-size: 4.4vw;
+            line-height: 1vw;
+        }
+        .left p{
+            font-size: 3vw;
+        }
        .Hero-Button {
-            margin-top: 27vh;
-            padding: 2.5vw 3.5vw;
+            margin-top: 33vh;
+            padding: 2vw 3vw;
+            margin-left: -0.1vh;
         }
         .About-left .img1 {
-            height: 40vh;
+            height: 48vh;
             width: 38vw;
             margin-top: 43vw;
         }
         
         .About-left .img2 {
-            height: 45vh;
+            height: 55vh;
             width: 42vw;
             margin-top: 6vw;
             margin-right: 2vw;
         }
+        .About-right p {
+            font-size: 3vw;
+        }
         #Products{
-            margin-top: 18vh;
+            margin-top: 85vh;
         }
         .Product-left {
-            margin-left: 7vh;
-            margin-top: -20vw;
+            margin-left: 11vh;
+            margin-top: -2vw;
         }
         .Product-right {
-            margin-left: 3vh;
+            margin-left: 5vh;
         }
         .Product-Content-2{
-            margin-top: -55vw;
+            margin-top: -7vw;
         }
         .Product-left-2{
-            margin-left: 3vh;
-            margin-top: -20vw;
+            margin-left: 4.5vh;
+            margin-top: -4vw;
         }
         .Product-right-2{
-            /* margin-top: -20vw; */
+            /* margin-left: 1vw; */
         }
         .Product-Content-3{
-            margin-top: -50vw;
+            margin-top: 2vw;
         }
         .heading1{
             margin-left: -8vw;
@@ -981,22 +996,38 @@ footer {
             margin-left: -8vw;
         }
         #Contact{
-            margin-top: 115vh;
+            margin-top: 175vh;
+        }
+        .ContactInfoHeading {
+            font-size: 4.5vw;
+        }
+        .contact-info a {
+            font-size: 3.2vw;
         }
         .Social-logo img{
-            height: 10vh;
-            width: 12%;
+            height: 12vh;
+            width: 15%;
             margin-left: 15vw;
             margin-top: 3vh;
         }
         .Contact-Button{
-            font-size: 3vw;
-            width: 28vw;
-            height: 4vh;
+            font-size: 3.5vw;
+            width: 25vw;
+            height: 5.5vh;
             margin-bottom: 3vh;
         }
+        .ContactFormHeading {
+            font-size: 4.5vw;
+        }
+        label{
+            font-size: 3vw;
+        }
+        .input-box input{
+            font-size: 3vw;
+            margin-top: 2.2vw;
+        }
         footer{
-            margin-top: 5vh;
+            margin-top: 68vh;
         }
         .FooterLogo{
             height: 10vh;
