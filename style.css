@@ -8,6 +8,7 @@
 html{
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -36,11 +37,13 @@ header.sticky {
     background-color: #6E64CD;
     top: 0;
 }
-
 header.sticky li a {
     color: #EDEADE;
     width: 100%;
     font-size: 1.2vw;
+}
+header.sticky li a:hover{
+    color: #171717;
 }
 
 
@@ -55,6 +58,7 @@ nav{
     height: 100px;
     padding: 0 4vw;
     background-color: rgba(0, 0, 0, 0.1);
+    overflow-y: hidden;
 }
 
 .nav-links{
@@ -123,8 +127,9 @@ a:hover{
 
 }
 .menu-links {
-    position: absolute;
-    top: 100%;
+    /* position: absolute; */
+    /* top: 100%; */
+    position: fixed;
     right: 0%;
     background-color: #6E64CD;
     width: fit-content;
@@ -174,6 +179,7 @@ a:hover{
 
 /* Hero Section  */
 .Hero-Content {
+    height: calc(100% - 100px);
     width: 100%;
     display: flex;
     position: relative;
@@ -305,6 +311,7 @@ a:hover{
     font-size: 1.3vw;
     font-family: 'Merriweather', serif;
     color: #222222;
+    margin-top: 0.5vw;
 }
 .Product-img {
     height: 55vh;
@@ -320,7 +327,7 @@ a:hover{
 
 .Product-left{
     height: 100%;
-    margin: 0 8vw 0 8vw;
+    margin: 0 8vw 0 5vw;
     
 }
 .Product-right{
@@ -342,7 +349,7 @@ a:hover{
 }
 .Product-right-2{
     height: 100%;
-    margin: 0 8vw 0 8vw;
+    margin: 0 8vw 0 5vw;
 }
 
 .Product-Content-3{
@@ -447,7 +454,7 @@ textarea{
     font-size: 1.2vw;
     margin-top: 0.5vw;
 }
-.formBox .row100 .input-box input{
+.formBox .row100 .input-box {
     font-size: 1.2vw;
 }
 label {
@@ -579,8 +586,66 @@ footer {
 }
 
 .footer-img1 {
+    position: left bottom;
     height: 21vh;
     width: 3vw;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-image: url('./Images/ImageHeroSectionCopy.png' );
+        background-position: 58vw 0;
+        background-size: 76vh 44vw;
+    }
+    a{
+        font-size: 1.4vw;
+    }
+    .nav-part1 h2 {
+        font-size: 2.3vw;
+    }
+    header.sticky li a {
+        font-size: 1.5vw;
+    }
+    .Hero-Button {
+        font-size: 2vw;
+        padding: 1.2vw 1.5vw;
+    }
+    .About-right p {
+        font-size: 1.5vw;
+    }
+    .Product-heading{
+        font-size: 2.4vw;
+    }
+    .Product-para {
+        font-size: 1.5vw;
+    }
+    #Contact {
+        margin-top: 60vw;
+    }
+    .ContactForm {
+        margin-top: 6.8vw;
+    }
+    label {
+        font-size: 1.3vw;
+    }
+    .input-box input{
+        font-size: 1.3vw;
+        margin-top: 0.8vw;
+    }
+    .Contact-Button {
+        margin-top: 2vw;
+    }
+
+}
+@media screen and (max-width:1200px){
+    body{
+        background-image: url('./Images/ImageHeroSectionCopy.png' );
+        background-position: 58vw 0;
+        background-size: 74vh 46vw;
+    }
+   
 }
 
 @media screen and (max-width:600px){
@@ -615,6 +680,9 @@ footer {
         font-size: 3.5vw;
     }
     .menu-links a{
+        font-size: 3vw;
+    }
+    header.sticky li a {
         font-size: 3vw;
     }
     .menu-links a:hover{
@@ -854,6 +922,86 @@ footer {
         font-size: 2vw;
         margin-top: -5vh;
     }
-
+    @media screen and (max-width:430px){
+       body{
+           background-image: url('./Images/Swap\ Hero\ Image.png');
+           background-position: 5vh 45vw;
+           background-size: 100vw 30vh;
+       }
+       .Logo {
+            height: 8vh;
+            width: 15vw;
+        }
+       .nav-part1 h2{
+            font-size: 4.5vw;
+        }
+       .Hero-Button {
+            margin-top: 27vh;
+            padding: 2.5vw 3.5vw;
+        }
+        .About-left .img1 {
+            height: 40vh;
+            width: 38vw;
+            margin-top: 43vw;
+        }
+        
+        .About-left .img2 {
+            height: 45vh;
+            width: 42vw;
+            margin-top: 6vw;
+            margin-right: 2vw;
+        }
+        #Products{
+            margin-top: 18vh;
+        }
+        .Product-left {
+            margin-left: 7vh;
+            margin-top: -20vw;
+        }
+        .Product-right {
+            margin-left: 3vh;
+        }
+        .Product-Content-2{
+            margin-top: -55vw;
+        }
+        .Product-left-2{
+            margin-left: 3vh;
+            margin-top: -20vw;
+        }
+        .Product-right-2{
+            /* margin-top: -20vw; */
+        }
+        .Product-Content-3{
+            margin-top: -50vw;
+        }
+        .heading1{
+            margin-left: -8vw;
+        }
+        .heading3{
+            margin-left: -8vw;
+        }
+        #Contact{
+            margin-top: 115vh;
+        }
+        .Social-logo img{
+            height: 10vh;
+            width: 12%;
+            margin-left: 15vw;
+            margin-top: 3vh;
+        }
+        .Contact-Button{
+            font-size: 3vw;
+            width: 28vw;
+            height: 4vh;
+            margin-bottom: 3vh;
+        }
+        footer{
+            margin-top: 5vh;
+        }
+        .FooterLogo{
+            height: 10vh;
+            width: 15vw;
+        }
+    }
 
 }
