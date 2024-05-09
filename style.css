@@ -1065,7 +1065,7 @@ footer {
             font-size: 3.3vw;
         }
         #Products{
-            /* margin-top: 72vh; */
+            margin-top: 20vh;
         }
         .Product-left {
             margin-left: 10vh;
@@ -1125,7 +1125,7 @@ footer {
             margin-top: 2.4vw;
         }
         footer{
-            margin-top: 65vh;
+            /* margin-top: 0vh; */
         }
         .Logo-Text{
             font-size: 4.8vw;
