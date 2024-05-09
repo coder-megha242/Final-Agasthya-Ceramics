@@ -772,7 +772,7 @@ footer {
 
     /* Product Section */
     #Products{
-        margin-top: 105vh;
+        /* margin-top: 105vh; */
     }
     .Product-img {
         height: 40vh;
@@ -968,7 +968,7 @@ footer {
             font-size: 3vw;
         }
         #Products{
-            margin-top: 85vh;
+            /* margin-top: 85vh; */
         }
         .Product-left {
             margin-left: 11vh;
@@ -1065,7 +1065,7 @@ footer {
             font-size: 3.3vw;
         }
         #Products{
-            margin-top: 72vh;
+            /* margin-top: 72vh; */
         }
         .Product-left {
             margin-left: 10vh;
